@@ -1,0 +1,16 @@
+h1{
+    color:blue;
+}
+body{
+    background-color: aquamarine;
+}
+.navbar{
+    background-color: rgb(0, 54, 61);
+}
+.container{
+    float:right;
+    width:60%;
+}
+button{
+    background-color : yellow;
+}
