@@ -1,0 +1,182 @@
+
+body{
+	background-image: url(test1.jpg) ;
+	background-size: 100%;
+}
+h1{
+	text-align: right;
+	color: green;
+	border: 5px solid white;
+	padding: 30px ;
+	border-image: url("test3.jpg") 30 round;
+}
+a{
+	text-align: right;
+	color: red;
+}
+ol{
+	width: 300px ;
+	height: 150px;
+	background-image: url(test1.jpg) ;
+	margin: 20px;
+}
+ul{
+	width: 300px ;
+	height: 150px;
+	background-image: url(test2.jpg);
+	margin: 20px;
+}
+h2 {
+	text-align: center;
+	border: 2px solid black;
+	margin: 50px;
+	border-width: thick;
+}
+#abc
+{
+ 	border-left: 5px solid red;
+}
+.y{							/*class*/
+	text-align: center;
+}
+#x{							/*id*/
+	display: inline-block;
+	height:50px;
+	width: 500px;
+	background: blue;
+	animation: move 2s infinite;
+}
+@keyframes move{
+	from {background-color: blue;
+		width: 500px;}
+	to {background-color: red;
+		width: 100px;}
+}
+#n{
+	border: 1px solid black;
+	padding: 2px;
+	height:50px;
+	width: 60px;
+	resize: both;
+	overflow: auto;
+}
+.block {
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	background-image: linear-gradient(red,yellow) ;
+  	border : 2px solid black;
+	position : fixed ;
+	right : 0px;
+	bottom: 0px;
+}
+.block2 {
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	background-image: linear-gradient(to right,red,yellow) ;
+  	border : 2px solid black;
+	border-radius : 60px 10px ;
+	position : fixed ;
+	right:0px;
+	bottom: 34px;
+}
+.block3 {
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-image: linear-gradient(red,white) ;
+  	border : 2px solid black;
+	border-radius: 30px 0px 0px 0px ;
+}
+.block4 {
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-image: linear-gradient(to right bottom,red,yellow) ;
+  	border : 2px solid black;
+}
+.container  {
+	text-align: center;
+}
+.incon{
+	background-color: violet;
+	width : 100%;
+	height : auto;
+	display: inline-block;
+}
+
+.list{
+	text-align:center;
+}
+.ul{
+	display: inline-block;
+}
+.ol{
+	display: inline-block;
+}
+
+#ok{
+	text-align: center;
+}
+.img{
+	text-align: right;
+	border: 2px solid black;
+}
+.t{
+	text-align: center ;
+}
+.table {
+	border-collapse: collapse;
+	table-layout:fixed;
+	width: 50%;
+	
+}
+th,td {
+	text-align:center;
+	border: 3px solid black;
+	background-image: linear-gradient(to right,blue,white);
+	font-size : 25;
+}
+.con{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align:center;
+	cursor: pointer;
+}
+.hover{
+	height:200px;width:200px;
+	position:relative;
+	border-radius: 20px;
+	border-bottom: 10px solid black;
+	border-right: 10px solid black;
+	background-color:white;
+	transform: rotateZ(45deg);
+	cursor: pointer;
+}
+.hover:focus{
+	transform: rotateX(180deg) rotate(45deg) ;
+	transition: all 1s ease-in;
+}
+.hover::before,.hover::after{
+	position : absolute;
+	content:'';
+	left: 50%; top :50%;
+	transform: translate(-50%,-50%);
+	border-radius:16px; 
+}
+.hover::before{
+	height: 150px; width: 150px;
+	border-top:12px solid rgb(17, 238, 47);
+	border-left:12px solid rgb(17, 238, 47);
+}
+.hover::after{
+	height: 140px; width: 140px;
+	border-top:8px solid rgb(17, 150, 238);
+	border-left:8px solid rgb(17, 150, 238);
+}
