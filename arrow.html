@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>arrow</title>
+    <style>
+        *{
+            color:white;
+        }
+        body{
+            position:static;
+            justify-content:center;
+            align-items: center;
+            height:100vh;
+            display:flex;
+        }
+        .box{
+            display:inline-block;
+            width: 20px; height: 20px;
+            border-top: 20px solid rgb(255, 2, 2);
+            border-bottom: 20px solid black;
+            border-right: 20px solid blue;
+            border-left: 20px solid green;
+        }
+        .up{
+            display:inline-block;
+            width: 0; height: 0;
+            border-bottom: 20px solid black;
+            border-top: 20px solid red;
+            border-right: 20px solid transparent;
+            border-left: 20px solid transparent;
+        }
+        .up:hover{
+            transform: rotate(360deg);
+            transition: all 1s ease;
+        }
+        .down{
+            display:inline-block;
+            width: 0; height: 0;
+            border-top: 20px solid red;
+            border-right: 20px solid transparent;
+            border-left: 20px solid transparent;
+        }
+        .right{
+            display:inline-block;
+            width: 0; height: 0;
+            border-bottom: 20px solid transparent;
+            border-top: 20px solid green;
+            border-left: 20px solid green;
+            border-right: 20px solid transparent;
+            
+           
+        }
+        .right:hover{
+            transform: scale(3);
+            transition : all 1s ease ;
+        }
+        .left{
+            display:inline-block;
+            width: 0; height: 0;
+            border-bottom: 20px solid transparent;
+            border-top: 20px solid transparent;
+            border-right: 20px solid blue;
+            border-left: 20px solid transparent;
+        }
+        .left:hover{
+            transform:scale(2);
+            transition: all .5s ease-in;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="box"></div>
+        <div class="up"></div>
+        <div class="down"></div>
+        <div class="right"></div>
+        <div class="left"></div>
+    </body>
+</html>

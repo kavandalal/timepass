@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>hover_1</title>
+    <style>
+        body{
+            left:0; top:0;
+            margin:0; padding:0;
+            background-color: rgb(121, 190, 255);
+        }
+        .block{
+            height:100vh;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            cursor: pointer;
+        }
+        .a, .b, .c{
+            position:relative;
+            width: 100px;
+            height: 100px;
+            background-image: linear-gradient(45deg,rgb(0, 158, 250),rgb(7, 51, 133));
+            border: 2px solid red;
+            border-radius:10%;
+            transition: all .8s ease-out;
+            display: inline-block;
+            margin: 20px;
+        }
+        .a h3{
+            color:white;
+            position: absolute ;
+            margin:0;
+            top:50%; left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .a:hover{
+            transform:scale(1.3);
+            transform: rotate(180deg);
+            border-radius:100%;
+            box-shadow: 0 0 20px ;
+            transition: all .5s ease-in;
+            background-image:linear-gradient(45deg, rgb(155, 7, 253),rgb(44, 2, 53));
+        }
+    </style>
+</head>
+<body>
+        <div class="block">
+            <div class="a"><h3>sapnu puas</h3></div>
+            <div class="b"><h4>AGAIN YO</h4></div>
+            <div class="c"><h5>YEET</h5></div>
+        </div>
+</body>
+</html>

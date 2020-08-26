@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>hover_2</title>
+        <style>
+            body{
+                margin:0; padding:0;
+                top:0; left:0; 
+                display:flex;
+                justify-content:center;
+                background-color: rgb(255, 126, 249);
+            }
+            .cont{
+                text-align:center;
+                display:inline-block;
+            }
+            .img_1,.img_2{
+                position:relative;
+                display:inline-block;
+                justify-content: center;
+                height: 60px;
+                width: 60px;
+                border:2px solid black;
+                border-radius: 20%;
+                font-size: 70%;
+                color:white;
+                transition: width 2s , height 2s;
+                margin: 5px;
+            }
+            .img_1{
+                background-image: url(kurama_small.jpg);
+            }
+            .img_2{
+                background-image: url(naruto.jpg);
+            }
+            .img_1:hover,.img_2:hover{
+                height: 300px;
+                width: 300px;
+                background-image: no-repeat;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cont">
+            <span class="img_1">KURAMA</span>
+            <span class="img_2">NARUTO</span>
+        </div>
+
+    </body>
+</html>
