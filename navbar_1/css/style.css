@@ -1,0 +1,55 @@
+
+body {
+    /* margin:0; padding:0; */
+    background-color: rgb(196, 132, 255);
+    height:100%;
+}
+/* start of navbar */
+.navbar{
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+.nav-link{
+    justify-content: space-between;
+}
+.navbar-toggler{
+    border:1px solid rgb(66, 142, 192);
+}
+.navbar-collapse{
+    justify-content: space-around;
+    position: relative;
+}
+#id2 .navbar-nav{
+    display: block ruby;
+}
+#id1 .nav-link{
+    color:yellow ;
+}
+#id2 .nav-link{
+    color:red;
+}
+.search{
+    float:right;
+    position: relative;
+    clear:both;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(196, 132, 255);
+    border-color: rgb(196, 132, 255);
+}
+/* end of navbar */
+
+
+/* start of body */
+.row{
+    height: 100%;
+}
+.navigate{
+    background-color:rgb(144, 92, 194);
+}
+.ad{
+    background-color:rgb(214, 169, 255);
+}
+
+
+/* end of body  */
