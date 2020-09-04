@@ -1,0 +1,28 @@
+h1{
+    color:blue;
+}
+body{
+    background-color: rgb(115, 255, 248);
+}
+.navbar{
+    background-color: rgb(255, 125, 65);
+    
+}
+.container{
+    float:right;
+    width:60%; 
+}
+button{
+    background-color : yellow;
+} 
+.nav-link{
+    text-align:center;
+    color:white !important;
+}
+hr{
+    width:80%;
+    border:.5px solid white;
+}
+.insta{
+    margin-top:-4px;
+}
