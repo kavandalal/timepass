@@ -1,0 +1,15 @@
+DELETE
+
+- make clone 
+- go to the folder you want to delete
+- "git rm -r <filenames>"
+- "git commit -m "message" "
+- "git push"
+
+ADD 
+
+- make clone 
+- copy past you folder you wan to add in git 
+- "git add <filename>"
+- "git commit -m "message" "
+- "git push"
