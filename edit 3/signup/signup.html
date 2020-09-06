@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- for search icon -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="nav-bar">
+		<div class="logo con-lg-2 con-md-2">
+			<span>Notes</span>
+		</div>
+		<div class="cont">
+			<span class="nav home con-lg-2 con-md-2"><a href="../home/webpage.html" class="nav-link">Home</a></span>
+			<span class="nav year con-lg-2 con-md-2"><a href="#">Year</a></span>
+			<span class="nav class con-lg-2 con-md-2"><a href="#">Class</a></span>
+			<span class="nav help con-lg-2 con-md-2"><a href="#">Help</a></span>
+		</div>
+		<div class="search con-lg-2">
+			<form >
+				<input type="text" class="search-box" placeholder="Search">
+				<button type="submit" class="search-logo"><i class="fa fa-search"></i></button>
+			</form>
+			
+		</div>
+	</section>
+
+	<section class="middle">
+		<div class="con">
+			<table>
+                <form>
+
+                    <th colspan="2"><p>Sign Up</p></th>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" placeholder="name"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="pass">Password</label></td>
+                        <td><input type="password" placeholder="password"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="username">Username</label></td>
+                        <td><input type="text" placeholder="username"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" placeholder="Email" required > </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="gender" >Gender</label></td>
+                        <td><input type="radio" id="isex" name="gender" value="male">
+                            <label for="male" id="sex">Male</label>
+                            <input type="radio" id="isex" name="gender" value="female">
+                            <label for="female" id="sex">Female</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="date">DOB</label></td>
+                        <td><input type="date" required> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="age">Age</label></td>
+                        <td><input type="number" placeholder="Age" required> </td>
+                    </tr>                     
+
+                    <tr>
+                        <td><label for="tel">Telephone</label></td>
+                        <td><input type="telephone" pattern="[0-9]{10}" title="Phone Number" placeholder="+91" required> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2" >
+                            <input type="submit" value="Submit" class="but">
+                            <input type="reset" value="Reset" class="but">
+                        </td>
+                    </tr>
+
+                </form>
+            </table>
+		</div>
+	</section>
+	<section class="foot">
+		<div>
+
+		</div>
+	</section>
+</body>
+</html>
