@@ -128,12 +128,20 @@ p{
 	height: 550px;
 	width:100%;
 	background-image: linear-gradient(90deg, rgb(3, 122, 39) ,rgb(9, 231, 220));
-
+	overflow:hidden;
 	border-bottom: 2px solid black;
 }
 
 .text-1{
 	position:relative;
+}
+.card{
+	padding : 20px;
+	box-shadow: 16px 15px 28px;
+}
+.display-img{
+	height: 550px;
+	display:grid;
 }
 /* start of add button */
 .dropup{
