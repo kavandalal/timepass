@@ -1,0 +1,82 @@
+body{
+	text-align:center;
+	background-color : rgba(149, 211, 252, 0.568);
+	margin:0; 
+	padding:0;
+}
+h1{
+	margin: 15px ;
+	font-size: 175%;
+}
+.con{
+	box-sizing : border-box;
+	font-size : 125%;
+	padding: 28px;
+}
+section {
+	border:	1px solid rgb(255, 0, 212);
+	background-color: #00FF99;
+	color: black;
+	position: relative;
+	overflow: auto;
+} 
+p{
+	padding : 4px;
+}
+#chicken ,#omlette ,#sushi {
+	position : absolute ;
+	top : 0; right : 0 ;
+	color: white;
+	border : 1px solid black ;
+	width: 25%;
+}
+#chicken{
+	background-color: rgb(230, 77, 77);
+}
+#omlette{
+	background-color: rgb(211, 108, 12);
+}
+#sushi{
+	background-color: rgb(7, 160, 15);
+}
+
+.row{
+	width:100%;
+}
+.abc{
+	width:100%;
+}
+
+/*large*/
+@media (min-width : 992px) {
+	.con-lg-4{
+		float : left ;
+		width: 33.33%;
+	}
+}
+
+/* medium */ 
+@media (min-width : 768px) and (max-width : 991px) {
+	.row{
+		display:block;
+	}
+	.con-md-6{
+		float : left ;
+		width: 50%;
+	}
+	.abc{
+		width:100%;
+	}
+	
+}
+
+/* small */
+@media (max-width : 767px) {
+	.row{
+		display:block;
+	}
+	.con-md-12{
+		float : left ;
+		width: 100%;
+	}
+}

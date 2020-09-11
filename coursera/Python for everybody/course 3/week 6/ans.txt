@@ -1,0 +1,10 @@
+douglas (ROY 
+import json
+json.loads()
+a list of 3 
+web service and api x standards
+rest (x["user"][0][name])
+urllib.parse 
+24 hrs
+oauth
+x rate limit remaining
