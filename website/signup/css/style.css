@@ -1,0 +1,225 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+	margin:0; padding:0;
+	background-image: linear-gradient(45deg, rgb(3, 122, 39) ,rgb(9, 231, 220));
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+/* start of nav bar */
+.navbar{
+	justify-content: space-between;
+	position: relative;
+}
+.collapse {
+	justify-content: space-between;
+	position: relative;
+	display: flex;
+}
+.navbar-brand{
+	font-size: 1.5rem;
+}
+#nav .nav-link{
+	color:white;
+	font-size:26px;
+}
+
+.navbar-brand a:hover , .nav-link a:hover{
+	text-decoration: none;
+	color:rgb(255, 166, 166) !important;
+}
+@media (min-width:768px) and (max-width: 991px){
+	.search{
+		padding-left:5px;
+	}
+	.search-box{
+		width:100px;
+	}
+}
+@media(min-width:576px) and (max-width: 767px){
+	.col-md-2 ,.col-md-3, .col-md-7{
+		width:unset;
+	}
+	.search{
+		
+		padding-left:0px;
+	}
+	.search-box{
+		margin-right: 2px;;
+		width:85px;
+	}
+}
+@media (max-width: 575px) {
+	.navbar div{
+		text-align: center;
+	} 
+	.search-box , .search-logo{
+		float:none;
+		margin-top:9px;
+	}
+}
+/* end of nav bar  */
+
+
+/* start middle */
+.middle{
+	text-align: center;
+	height:100vh;
+    display: flex;
+	align-items : center ;
+	justify-content: center;
+}
+.con{
+	height: 100%;
+	width : 50%;
+	top: -7%;
+	position : relative ;
+	overflow: hidden;
+	display: flex;
+	align-items : center ;
+	justify-content: center;
+    text-align:center;
+    color:white; 
+}
+p{
+	font-size: 54px;
+	letter-spacing: 4px;
+	color:white;
+	margin:0;
+	letter-spacing: 5px;
+}
+table {
+	width: 75%;
+}
+tr,td{
+    color:white;
+	text-decoration: none;
+}
+td > .middle input{
+	float:right;
+}
+.but{
+	float:none;
+	width:130px;
+}
+
+.form{
+	top: -7%;
+	text-align:center;
+    position:relative ;
+    float: left;
+}
+.middle input,.middle button{
+	width: 260px;
+	height: 30px;
+	text-align: center;
+	color : rgb(26, 24, 24);
+	font-size:20px;
+	border: 0; padding : 0 ; margin: 0px;
+}
+.middle .but{
+	width: 180px;
+}
+label{
+    float:left;
+    font-size: 20px;
+}
+#isex{
+	width:20px;
+	height:16px;
+	float:none;
+}
+#sex{
+	float:none;
+}
+.middle input:hover, button:hover{
+	background-color : rgb(0, 204, 255);
+}
+.middle input:focus, button:focus{
+	color :white;
+	background-color : rgb(0, 0, 0);
+}
+@media (min-width:768px) and (max-width: 991px){
+	.con {
+		width: 70%;
+	}
+	.middle input,.middle button{
+		width: 210px;
+		margin: 2px;
+	}
+}
+@media (max-width : 767px) {
+	.con {
+		width: 70%;
+	}
+	.middle .but{
+		width: 120px;
+	}
+}
+@media (max-width: 575px){
+	.con{
+		width: 90%
+	}
+}
+/* end of middle  */
+
+
+
+/* startfooter */
+
+footer{
+	background-color: rgb(36, 36, 36);
+	color:white;
+	
+}
+.maintxt{
+	font-size: 1.5em;
+	letter-spacing: .5em;
+}
+.subtxt{
+	font-size: .8em;
+	letter-spacing: .3em;
+	margin : 0;
+}
+
+
+/* end of footer  */
+
+
+
+/* responsive design */
+@media (min-width : 992px) {
+	
+	.con-lg-1{		
+		float: left;
+		width: 8.33%;
+	}
+	.con-lg-2{
+		width: 16.66%;
+		float:left;
+	}
+	.con-lg-3{
+		float : left ;
+		width: 25%;
+	}	
+}
+@media (min-width : 768px) and (max-width : 991px) {
+	.con-md-3{
+		float : left ;
+		width: 25%;
+	}
+	.con-md-2{
+		width: 16.66%;
+		float:left;
+	}
+}
+@media (max-width : 767px) {
+	.con-sm-3{
+		float : left ;
+		width: 25%;
+	}
+}

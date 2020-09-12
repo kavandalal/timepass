@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- for search icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" /> <!--for add button -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">	
+	<link rel="stylesheet" href="css/style.css"> 
+
+</head>
+<body>
+    <section>
+		<div class="navbar navbar-expand-md navbar-dark bg-dark ">
+			<div class="navbar-brand  col-md-2 col-xs-4"><a href="../home/webpage.html">Notes</a></div>
+			<div class=" col-md-7 col-xs-4" >
+				<button class="navbar-toggler" type="button" data-target="#nav" data-toggle="collapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="nav">
+					<div class="nav-link"><a href="../home/webpage.html">Home</a></div>
+					<div class="nav-link"><a href="#">Year</a></div>
+					<div class="nav-link"><a href="#">Class</a></div>
+					<div class="nav-link"><a href="#">Help</a></div>
+				</div>
+			</div>
+			<div class="search col-md-3 col-xs-4">
+				<form>
+					<button type="submit" class="search-logo">
+						<i class="fa fa-search"></i>
+					</button>
+					<input type="text" class="search-box" placeholder="Search">
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="middle">
+		<div class="con">
+			<table>
+                <form>
+
+                    <th colspan="2"><p>Sign Up</p></th>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" placeholder="name"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="pass">Password</label></td>
+                        <td><input type="password" placeholder="password"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="username">Username</label></td>
+                        <td><input type="text" placeholder="username"> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="email" placeholder="Email" required > </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="gender" >Gender</label></td>
+                        <td><input type="radio" id="isex" name="gender" value="male">
+                            <label for="male" id="sex">Male</label>
+                            <input type="radio" id="isex" name="gender" value="female">
+                            <label for="female" id="sex">Female</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="date">DOB</label></td>
+                        <td><input type="date" required> </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="age">Age</label></td>
+                        <td><input type="number" placeholder="Age" required> </td>
+                    </tr>                     
+
+                    <tr>
+                        <td><label for="tel">Telephone</label></td>
+                        <td><input type="telephone" pattern="[0-9]{10}" title="Phone Number" placeholder="+91" required> </td>
+                    </tr>
+                    
+                    <tr>
+                        <td >
+                            <input type="submit" value="Submit" class="but">
+                        </td>
+                        <td>
+                            <input type="reset" value="Reset" class="but">
+                        </td>
+                    </tr>
+
+                </form>
+            </table>
+		</div>
+	</section>
+	<footer class="page-footer yellow font-small text-center h-auto p-2">
+        <p class="mb-0 maintxt">Made with  <i class="fa fa-heart" aria-hidden="true"></i>  in INDIA</p>
+        <br>
+        <p class="mb-0 subtxt"> - By the students of CGPIT</p>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
