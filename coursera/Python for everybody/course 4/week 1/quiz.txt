@@ -1,0 +1,11 @@
+class
+methods x fields
+constructor x class
+direction 
+use party animal 
+col.fulname 
+class a(b)
+def
+to refer to the instance 
+it shows the methods and attr
+destructor

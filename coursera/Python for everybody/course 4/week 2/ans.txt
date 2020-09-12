@@ -1,0 +1,11 @@
+create , delete ,insert 
+create table people
+insert into 
+select * from users 
+order by 
+relation
+database administrator 
+sqlite 
+all rows deleted 
+update users set name="new name"where ..
+it counts rows in table 
