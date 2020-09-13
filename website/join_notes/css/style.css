@@ -1,0 +1,134 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+body{
+	margin:0; padding:0;
+	background-image: linear-gradient(45deg, rgb(3, 122, 39) ,rgb(9, 231, 220)); 
+	
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+/*start of navigation bar */
+
+.navbar{
+	justify-content: space-between;
+	position: relative;
+}
+.collapse {
+	justify-content: space-between;
+	position: relative;
+	display: flex;
+}
+.navbar-brand{
+	font-size: 1.5rem;
+}
+#nav .nav-link{
+	color:white;
+	font-size:26px;
+}
+.search{
+	padding-left:25px;
+}
+.search-box , .search-logo{
+	float:right;
+	width:150px;
+}
+.search-box{
+	margin-right: 10px;
+	padding-left: 10px;
+}
+.search-logo{
+	width:auto;
+}
+.navbar-brand a:hover , .nav-link a:hover{
+	text-decoration: none;
+	color:rgb(255, 166, 166) !important;
+}
+.active{
+	border-bottom: 2px solid white;
+}
+@media (min-width:768px) and (max-width: 991px){
+	.search{
+		padding-left:5px;
+	}
+	.search-box{
+		width:100px;
+	}
+}
+@media(min-width:576px) and (max-width: 767px){
+	.col-md-2 ,.col-md-3, .col-md-7{
+		width:unset;
+	}
+	.search{
+		
+		padding-left:0px;
+	}
+	.search-box{
+		margin-right: 2px;;
+		width:85px;
+	}
+}
+@media (max-width: 575px) {
+	.navbar div{
+		text-align: center;
+	} 
+	.search-box , .search-logo{
+		float:none;
+		margin-top:9px;
+	}
+}
+/* end of navbar  */
+
+/* start of middle  */
+
+.con {
+	position: relative;
+	height: auto;
+	margin : 10px;
+	padding: 100px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+table{
+	border-collapse: unset;
+}
+input{
+	float: right
+}
+label{
+	float:left
+}
+.heading{
+	font-size: 30px;
+}
+th{
+	font-size: 36px;
+	color:white;
+	padding-bottom: 1.2em;
+}
+td{
+	width: auto;
+	padding: .5em;
+	font-size: 24px;
+}
+.middle input,.middle button{
+	height: 45px;
+	width:200px;
+	text-align: center;
+	color : rgb(26, 24, 24);
+	font-size:25px;
+}
+.middle input:hover,.middle button:hover{
+	background-color : rgb(0, 204, 255);
+}
+.middle input:focus,.middle button:focus{
+	color :white;
+	background-color : rgb(0, 0, 0);
+}
+
+/* end of middle  */
