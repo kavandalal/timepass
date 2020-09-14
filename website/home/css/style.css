@@ -205,14 +205,40 @@ a:hover{
 .dropdown-menu{
 	border: 1px solid black;
 }
+@media(min-width:768px) and (max-width: 991px){
+	.img_div{ 
+		width:100%;
+	}
+}
 @media(min-width:576px) and (max-width: 767px){
 	.signin , .signup{
 		margin: 25px;
 		height: 110px ;
 		width: 220px;
 	}
+	.middle .home-1{
+		height: 720px;
+	}
+	.dropup {
+		right: 11%;
+		bottom: 5%;
+	}
+	.img_div{ 
+		width:100%;
+	}
 }
-
+@media (max-width: 576px){
+	.middle .home-1{
+		height: 760px;
+	}
+	.dropup {
+		right: 8%;
+		bottom: 5%;
+	}
+	.img_div{ 
+		width:100%;
+	}
+}
 /* end of add button */
 /* end of middle  */
 
