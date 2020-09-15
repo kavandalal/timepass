@@ -1,0 +1,10 @@
+ability to scan data fast 
+to look up a particular row very quickly 
+use personal email
+make a table 
+foreign key  x primary key x
+foreign key 
+auto increment 
+join
+the no. of row of table 1 * 2 
+table.column
