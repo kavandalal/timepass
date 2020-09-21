@@ -1,0 +1,9 @@
+2 foreign keys 
+a file handle 
+execute 
+placeholder for org 
+None
+retrives first 10 rows 
+multiple sql statement
+no duplicate 
+unique 

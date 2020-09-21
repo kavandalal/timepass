@@ -1,0 +1,25 @@
+utf 8
+71
+list
+unicode 
+encode x decode 
+all the lines will print out x below 2 x negative
+below 10 
+o
+3
+ABC Zap ABC
+main memory
+to look up methods x key/value pair 
+walter
+nothing 
+15 x -1 x 74
+10
+3
+line 1 2 3 5 6
+['with','three','words']
+3
+direction
+to refer to the instance in which the method is used 
+does not read all the data x opening a socket will never fail x
+attribute
+javascript
