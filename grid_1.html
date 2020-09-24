@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_1</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            color:white;
+        }
+        .grid{
+            display: grid;
+            
+            grid-template-areas: 
+            "nav nav nav nav"
+            "sub main main ad"
+            "foot foot foot foot";
+            grid-template-rows: 1fr 4fr 1fr;
+            grid-template-columns: 1fr 2fr 2fr 1fr;
+            min-height:100vh;
+            gap:.5em;
+        }
+        .navbar{
+            grid-area:nav;
+            background: rgb(255, 0, 0);
+        }
+        .sub{
+            grid-area: sub;
+            background: rgb(255, 64, 64);
+        }
+        .main{
+            grid-area: main;
+            display: grid;
+            grid-template-areas: 
+            "_1 _1 _2 _3"
+            "_1 _1 _4 _5"
+            "_6 _7 _7 _9"
+            "_6 _8 _8 _9";
+            gap:.4em;
+        }
+        .ad{
+            grid-area: ad;
+            background: rgb(255, 135, 135);
+        }
+        .foot{
+            grid-area: foot;
+            background: rgb(255, 192, 192);
+        }
+        /* .main > div{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        } */
+        ._1{
+            grid-area:_1;
+            background: rgb(0, 50, 92);
+        }
+        ._2{
+            grid-area:_2;
+            background: rgb(0, 64, 116);
+        }
+        ._3{
+            grid-area:_3;
+            background: rgb(0, 87, 158);
+        }
+        ._4{
+            grid-area:_4;
+            background: rgb(0, 108, 196);
+        }
+        ._5{
+            grid-area:_5;
+            background: rgb(0, 140, 255);
+        }
+        ._6{
+            grid-area:_6;
+            background: rgb(43, 160, 255);
+        }
+        ._7{
+            grid-area:_7;
+            background: rgb(89, 180, 255);
+        }
+        ._8{
+            grid-area:_8;
+            background: rgb(148, 207, 255);
+        }
+        ._9{
+            grid-area:_9;
+            background: rgb(191, 225, 252);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="navbar">navbar</div>
+        <div class="sub">sub</div>
+        <div class="main">
+            <div class="_1"></div>
+            <div class="_2"></div>
+            <div class="_3"></div>
+            <div class="_4"></div>
+            <div class="_5"></div>
+            <div class="_6"></div>
+            <div class="_7"></div>
+            <div class="_8"></div>
+            <div class="_9"></div>
+        </div>
+        <div class="ad">ad</div>
+        <div class="foot">footer</div>
+    </div>
+</body>
+</html>
